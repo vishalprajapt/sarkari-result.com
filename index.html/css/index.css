@@ -227,6 +227,9 @@
     .head img{
         max-width:50px;
     }
+    .headtext{
+        padding-top:-50px;
+    }
         
     
     .headtext{
