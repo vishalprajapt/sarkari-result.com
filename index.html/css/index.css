@@ -227,14 +227,10 @@
     .head img{
         max-width:50px;
     }
-    .headtext{
-        padding-top:-50px;
-    }
-        
     
     .headtext{
         padding-right: 50px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
     .headtext p{
         margin-left: 20px;
