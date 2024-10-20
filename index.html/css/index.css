@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .mainbody{
     margin: 10px;
@@ -224,6 +224,11 @@
 }
 
 @media only screen and (max-width:768px){
+    .head img{
+        max-width:50px;
+    }
+        
+    
     .headtext{
         padding-right: 50px;
         padding-top: 50px;
