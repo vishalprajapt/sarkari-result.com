@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mainbody{
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+.head{
+    padding: 30px;
+    background: rgb(173, 22, 22);
+
+}
+.head img{
+   /* width: 100px; */
+   max-width: 200px;
+}
+.headtext{
+    float: right;
+    padding-right: 300px;
+    color: white;
+    
+}
+.headtext h1{
+    font-size: 4vw;
+}
+.headtext p{
+    font-size: 2vw;
+    text-decoration: 2px dotted;
+    margin-left: 50px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    column-gap: 1px;
+}
+.menu .menudiv{
+    background: black;
+    text-align: center;
+    padding: 15px;
+}
+.menudiv a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+}
+.marquee{
+    margin: 20px 0px;
+    max-width: 100%;
+    text-align: center;
+    color: blue;
+}
+.marquee h1{
+    font-size: 2.2vw;
+    margin: 10px 0px;
+    color: black;
+}
+.marquee h4{
+    font-size: 1.5vw;
+    margin: 10px 0px;
+    color: red;
+}
+.marquee h3{
+    font-size: 1.7vw;
+}
+.place{
+    max-width: 100%;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid;
+    height: 300px;
+    animation: image 5s linear;
+    animation-iteration-count: infinite;
+
+}
+
+.jobs{
+    margin: 20px 0px;
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+
+}
+.jabname{
+    border: solid rgb(234, 86, 33);
+    background: brown;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px 0px;
+    color: white;
+}
+.jobs .left{
+    border: solid rgb(234, 86, 33);
+    padding: 10px;
+}
+.jobs .left ul{
+    margin-left: 20px;
+    font-size: 1.5vw;
+
+}
+.jobs .left ul li{
+   margin: 10px 0px;
+
+} 
+.prejob{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+.lastjobs{ 
+    border: solid rgb(234, 86, 33);
+   
+}
+.lastjobs ul{
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 1.5vw;
+}
+.lastjobs ul li{
+   margin: 10px 0px;
+}
+.footer{
+    width: 80%;
+    max-width: 80%;
+    margin: 10px 10%;
+    border: solid rgb(234, 86, 33);
+  
+}
+.footer1{
+    margin: 20px 0px;
+    border: solid rgb(234, 86, 33);
+    background: brown;
+    padding: 10px 0px;
+    text-align: center;
+ 
+
+
+
+}
+.footer1 h2{
+
+    color: white;
+    font-size: 2.5vw;
+}
+.footer2{
+    text-align: center;
+}
+.footer2 p{
+    font-size: 2vw;
+    margin: 10px 0px;
+    font-weight: bold;
+   
+
+}
+.creat{
+    width: 100%;
+    max-width: 100%;
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+
+
+}
+.creat h2{
+    font-size: 2vw;
+    margin: 10px 0px;
+
+}
+  
+
+
+
+
+
+
+
+
+@keyframes image{
+    0%{background: url("../img/bridage\ img.jpg");
+        background-position: center;
+        background-size: cover;
+    
+    }
+    40%{background: url("../img/singapur\ img.webp");
+        background-position: center;
+        background-size: cover;
+    
+    }
+    80%{background: url("../img/temple\ img.jpeg");
+        background-position: center;
+        background-size: cover;
+    }
+    100%{background: url("../img/bridage\ img.jpg");
+        background-position: center;
+        background-size: cover;
+    
+    }
+}
+
+
+
+
+@media only screen and (max-width:1200px){
+    .headtext{
+        padding-right: 200px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .headtext{
+        padding-right: 100px;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .headtext{
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+    .headtext p{
+        margin-left: 20px;
+    }
+    .menu{
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+      }
+      .menu .menudiv{
+        background: black;
+        text-align: center;
+        padding: 10px;
+    }
+    .creat{
+        padding: 20px;
+    }
+}
+  
